@@ -1,0 +1,30 @@
+.vehicle-travel-app .form-group {
+  margin-bottom: 6px;
+}
+.vehicle-travel-app .clock {
+  font-size: 1.3em;
+  margin-bottom: 8px;
+}
+.vehicle-travel-app .waypoint-row {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 4px;
+  align-items: center;
+}
+.vehicle-travel-app .waypoint-row .wp-name {
+  flex: 1;
+}
+#vehicle-travel-hud {
+  position: fixed;
+  top: 8px;
+  right: 8px;
+  z-index: 60;
+}
+.vt-hud {
+  background: rgba(0, 0, 0, 0.6);
+  color: #f0e6d2;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 0.9em;
+  pointer-events: none;
+}
